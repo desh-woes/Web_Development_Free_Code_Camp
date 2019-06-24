@@ -1,0 +1,64 @@
+/*Style the background color of the web page*/
+body {
+    background-color: #e5e5e5;
+    font-family: "Corbel Light", sans-serif;
+}
+
+/*Style the main block*/
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Style the title element*/
+#title{
+    margin: 0 auto;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+/*Styling the div containing the image*/
+#img-div{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+}
+
+/*Style the image itself*/
+#img-div img{
+    width: 100%;
+    display: block;
+    height: auto;
+    object-fit: cover;
+    max-width: 80%;
+}
+
+/*Style the tribute segment*/
+#tribute{
+    width: 60%;
+}
+
+/*Styling the tribute info element*/
+#tribute-info{
+    text-align: center;
+    margin: 3%;
+}
+
+/*Specific size for when the screen shrinks*/
+@media screen and (max-width: 700px){
+    #tribute{
+        width: 100%;
+    }
+}
+
+/*Styling for the element in the footer*/
+footer h3{
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    margin: 3%;
+}
