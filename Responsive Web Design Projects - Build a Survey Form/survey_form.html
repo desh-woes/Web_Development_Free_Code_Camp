@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <main>
+        <!-- Title of the form -->
+        <h1 id="title">Survey Form</h1>
+
+        <!-- Form Section -->
+        <form id="survey-form">
+            <!-- Brief explanation of the form -->
+            <p id="description">Let us know how we can improve freeCodeCamp</p>
+
+            <!-- Name Entry -->
+            <label for="name" id="name-label" class="main_labels">*Name:</label>
+            <input id="name" type="text" placeholder="Enter your name" required>
+
+            <!-- Email Entry -->
+            <label for="email" id="email-label" class="main_labels">*Email:</label>
+            <input id="email" type="email" required placeholder="Enter your Email">
+
+            <!-- Age entry -->
+            <label for="number" id="number-label" class="main_labels">*Age</label>
+            <input id="number" type="number" placeholder="Age" min="10" max="70">
+
+            <!-- Dropdown to determine the current role of who fills the form -->
+            <label for="dropdown" class="main_labels">*Which option best describes your current role?</label>
+            <select id="dropdown">
+                <option disabled>Select an option</option>
+                <option value="student" selected>Student</option>
+                <option value="job">Full time job</option>
+                <option value="learner">Full time Learner</option>
+                <option value="no-say">Prefer not to say</option>
+                <option value="other">Other</option>
+            </select>
+
+            <!-- Radio buttons to collect input -->
+            <label class="main_labels">*How likely is that you would recommend freeCodeCamp to a friend?</label>
+            <label>
+                <input name="recommend" type="radio" value="likely">Definitely
+            </label>
+            <label>
+                <input name="recommend" type="radio" value="Maybe">Maybe
+            </label>
+            <label>
+                <input name="recommend" type="radio" value="unsure">Unsure
+            </label>
+
+            <!-- Another drop down -->
+            <label for="best-part" class="main_labels">*What do you like most in FCC?</label>
+            <select id="best-part">
+                <option disabled selected>Select an option</option>
+                <option value="challenges">Challenges</option>
+                <option value="projects">Projects</option>
+                <option value="Community">Community</option>
+                <option value="open">Open source</option>
+                <option value="other">Other</option>
+            </select>
+
+            <!-- Checkboxes -->
+            <label class="main_labels">*Things that should be improved in the future (Check all that apply):</label>
+            <label>
+                <input name="recommend" type="checkbox" value="a">Front-end Projects
+            </label>
+            <label>
+                <input name="recommend" type="checkbox" value="b">Backend Projects
+            </label>
+            <label>
+                <input name="recommend" type="checkbox" value="c">Data Visualization
+            </label>
+            <label>
+                <input name="recommend" type="checkbox" value="a">Challenges
+            </label>
+            <label>
+                <input name="recommend" type="checkbox" value="b">Open Source Community
+            </label>
+            <label>
+                <input name="recommend" type="checkbox" value="c">Gitter help rooms
+            </label>
+            <label>
+                <input name="recommend" type="checkbox" value="c">Videos
+            </label>
+            <label>
+                <input name="recommend" type="checkbox" value="a">City Meetups
+            </label>
+            <label>
+                <input name="recommend" type="checkbox" value="b">Wiki
+            </label>
+            <label>
+                <input name="recommend" type="checkbox" value="c">Forum
+            </label>
+            <label>
+                <input name="recommend" type="checkbox" value="c">Additional Courses
+            </label>
+
+            <!-- Text area -->
+            <label for="other-comments" class="main_labels">*Any other comments?</label>
+            <textarea placeholder="Enter your comments here" id="other-comments"></textarea>
+
+            <!-- Submit button -->
+            <button id="submit" type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>

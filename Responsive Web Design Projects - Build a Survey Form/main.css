@@ -1,0 +1,64 @@
+/*Styling the background of the form*/
+body{
+    background-color: cornflowerblue;
+    /*display: block;*/
+    font-family: "Corbel Light", sans-serif;
+}
+
+/*Styling for the main container*/
+main{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/*Styling for the form title*/
+#title{
+    font-weight: bolder;
+    margin: 1.3% auto;
+}
+
+/*Styling for the description*/
+#description{
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+/*Styling for the form section*/
+form{
+    background-color: aliceblue;
+    /*display: block;*/
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 5%;
+}
+
+/*Styling for the input values*/
+input, select, textarea{
+    display: inline-block;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    padding: 2vh 2vh;
+    font-family: "Corbel Light", sans-serif;
+}
+
+/*Styling for the main labels lists*/
+.main_labels{
+    font-weight: bolder;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+/*Styling for the submit button*/
+button{
+    margin: 0 auto;
+    width: 30%;
+    background-color: deepskyblue;
+    font-family: "Corbel Light", sans-serif;
+    font-weight: bolder;
+    font-size: 100%;
+}
