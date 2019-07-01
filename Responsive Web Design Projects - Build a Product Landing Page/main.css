@@ -1,0 +1,241 @@
+/*General Styles
+-----------------------------------------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+main {
+    width: 70%;
+    margin: 80px auto 0;
+}
+
+.get-email{
+    /*border: 1px solid black;*/
+    text-align: center;
+    color: #4d4d4d;
+    margin-bottom: 30px;
+}
+
+.get-email h1{
+    margin-bottom: 10px;
+}
+
+#form input, #form button {
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px;
+    border-radius: 5%;
+    width: 250px;
+}
+
+#form input[type=submit]{
+    background-color: #ffdf00;
+    width: 150px;
+}
+
+/*Header Styles
+-----------------------------------------------------------------------------------------------------*/
+/*Main header styling*/
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+/*Styling for the nav and logo container*/
+#nav-container{
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+/*Company logo*/
+.nav-bar-left{
+    width: 40%;
+}
+
+.nav-bar-left img{
+    width: 60%;
+    height: auto;
+}
+
+
+/* Styling for the navigation links */
+#nav-bar li{
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+}
+
+#nav-bar a{
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+#nav-bar a:hover{
+    color: deepskyblue;
+}
+
+/*Responsive header display*/
+@media screen and (max-width: 768px) {
+    #nav-container{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    .nav-bar-left{
+        width: 90%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    main{
+        margin-top: 100px;
+        width: 90%;
+    }
+}
+
+/*Mobile screen*/
+@media screen and (max-width: 400px) {
+    #nav-bar li{
+        display: block;
+    }
+    main{
+        margin-top: 115px;
+    }
+}
+
+/*Features segment Styles
+----------------------------------------------------------------------------------------------------*/
+#features-section{
+    margin-top: 90px;
+}
+
+.feature{
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    column-gap: 15px;
+    align-items: center;
+}
+
+.fa{
+    font-size: 50px;
+    color: darkorange;
+    min-width: 62px;
+}
+
+.right-col h2{
+    color: #2f2f2f;
+}
+
+/*How it works segment styles
+----------------------------------------------------------------------------------------------------*/
+#how-it-works{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#video{
+    width: 80%;
+    height: 70vh;
+}
+
+@media screen and (max-width: 700px){
+    #video{
+        width: 90%;
+        height: 35vh;
+    }
+
+    #features-section{
+        margin-top: 45px;
+    }
+}
+
+/*Pricing Segment
+----------------------------------------------------------------------------------------------------*/
+#pricing{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 0 auto;
+    text-align: center;
+}
+
+.price-card{
+    margin-bottom: 20px;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+
+.product-name{
+    width: 100%;
+    height: 50px;
+    background-color: #c6cbcd;
+    margin-bottom: 15px;
+}
+
+.product-name h3{
+    line-height: 50px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.price{
+    line-height: 40px;
+}
+
+.price-card p{
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+
+.price-card button{
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    background-color: yellow;
+}
+
+/*Footer Segment
+----------------------------------------------------------------------------------------------------*/
+footer{
+    width: 70%;
+    text-align: right;
+    margin: 15px auto 0;
+    background-color: #e5e5e5;
+    padding: 25px 15px;
+}
+
+footer a{
+    display: inline-block;
+    width: 70px;
+    /*border: 1px solid black;*/
+    padding-bottom: 10px;
+}
+
+footer p{
+    font-size: 14px;
+    color: #666b6d;
+}
+
+@media screen and (max-width: 700px) {
+    footer{
+        width: 90%;
+    }
+}

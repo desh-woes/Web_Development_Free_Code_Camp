@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Nav Bar</title>
+    <link type="text/css" rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, iniital-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
+<body>
+    <!-- Header segment -->
+    <header id="header">
+        <div id="nav-container">
+            <!-- Header Image -->
+            <div class="nav-bar-left">
+                <img src="Images/original_trombones.png" alt="logo-img" id="header-img">
+            </div>
+
+            <!-- Navigation bar -->
+            <nav id="nav-bar">
+                <ul>
+                    <li><a href="#features-section" class="nav-link">Features</a></li>
+                    <li><a href="#how-it-works" class="nav-link">How it Works</a></li>
+                    <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main content-->
+    <main>
+        <!-- Section to get email addresses -->
+        <section class="get-email">
+            <h1>
+                Handcrafted, home-made masterpieces
+            </h1>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <label for="email">
+                    <input name="email" type="email" id="email" placeholder="Enter your email address" required>
+                </label> <br><br>
+                <input type="submit" id="submit" value="Get Started">
+            </form>
+        </section>
+
+        <!-- The features section -->
+        <section id="features-section">
+            <!-- Feature 1 -->
+            <div class="feature">
+                <div class="left-col">
+                    <i class="fa fa-fire"></i>
+                </div>
+                <div class="right-col">
+                    <h2>Premium Materials</h2>
+                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                </div>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="feature">
+                <div class="left-col">
+                    <i class="fa fa-truck"></i>
+                </div>
+                <div class="right-col">
+                    <h2>Fast Shipping</h2>
+                    <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                </div>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="feature">
+                <div class="left-col">
+                    <i class="fa fa-battery-full"></i>
+                </div>
+                <div class="right-col">
+                    <h2>Quality Assurance</h2>
+                    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- The how it works section -->
+        <section id="how-it-works">
+            <iframe id="video"
+                    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing">
+            <!-- Card 1 -->
+            <div class="price-card">
+                <div class="product-name">
+                    <h3>TENOR TROMBONE</h3>
+                </div>
+
+                <h3 class="price">$600</h3>
+                <p>Lorem ipsum.<br>
+                    Lorem ipsum.<br>
+                    Lorem ipsum dolor.<br>
+                    Lorem ipsum.
+                </p>
+
+                <button>Select</button>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="price-card">
+                <div class="product-name">
+                    <h3>TENOR TROMBONE</h3>
+                </div>
+
+                <h3 class="price">$600</h3>
+                <p>Lorem ipsum.<br>
+                    Lorem ipsum.<br>
+                    Lorem ipsum dolor.<br>
+                    Lorem ipsum.
+                </p>
+
+                <button>Select</button>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="price-card">
+                <div class="product-name">
+                    <h3>TENOR TROMBONE</h3>
+                </div>
+
+                <h3 class="price">$600</h3>
+                <p>Lorem ipsum.<br>
+                    Lorem ipsum.<br>
+                    Lorem ipsum dolor.<br>
+                    Lorem ipsum.
+                </p>
+
+                <button>Select</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <a>Privacy</a>
+            <a>Terms</a>
+            <a>Contract</a>
+        </div>
+        <p>Copyright 2019, Original Trombones</p>
+    </footer>
+
+</body>
+</html>
