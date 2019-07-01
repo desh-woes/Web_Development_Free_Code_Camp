@@ -10,7 +10,7 @@ s/n | Value
 4   | API's and MicroServices
 
 ## Progress so far
-Completed project 2 in the Responsive Web design portion
+Completed project 3 in the Responsive Web design portion
 
 ## Wondering how to get staterd yourself?
 Simply head on to [https://learn.freecodecamp.org/](https://learn.freecodecamp.org/). Also feel free to reach out to me if you have any inquiries regarding any project in this repository ([Adesina Oluwarotimi](https://www.linkedin.com/in/adesina-oluwarotimi/)).
