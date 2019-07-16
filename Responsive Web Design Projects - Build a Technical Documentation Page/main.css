@@ -1,0 +1,77 @@
+/*General styles
+----------------------------------------------------------------------------------------------------------------------*/
+body{
+    margin: 0 auto;
+}
+
+header{
+    font-size: xx-large;
+}
+
+/* Navigation Bar Styles
+----------------------------------------------------------------------------------------------------------------------*/
+#navbar{
+    width: 300px;
+    float: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow-y: scroll;
+
+}
+
+#navbar header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+}
+.nav-link{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    justify-content: left;
+    padding-left: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 700px) {
+    #navbar{
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        background-color: white;
+    }
+}
+
+/* Main Documentation Styles
+----------------------------------------------------------------------------------------------------------------------*/
+main{
+    margin: 0 auto 0 300px;
+    padding: 25px;
+}
+
+.main-section li{
+    margin: 0 auto 10px;
+}
+
+.main-section p, .main-section li, .main-section code{
+    color: #515151;
+}
+
+pre{
+    background-color: #ccd1d3;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 700px) {
+    main{
+        width: 100%;
+        margin: 300px auto 0;
+    }
+}
