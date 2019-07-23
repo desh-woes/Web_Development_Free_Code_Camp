@@ -13,7 +13,8 @@ s/n | Value
 - Completed project 5/5 in the Responsive Web design portion
 
 ## Certificates
-![Responsive Web design Certificate](https://drive.google.com/open?id=1MTMZwy08YYUoThH_jGvwcthWa0I3vpXg)
+> #### Responsive Web Development Certificate
+![Responsive Web design Certificate](Certifications/Responsive Web Design Certificate.png)
 
 ## Wondering how to get staterd yourself?
 Simply head on to [https://learn.freecodecamp.org/](https://learn.freecodecamp.org/). Also feel free to reach out to me if you have any inquiries regarding any project in this repository ([Adesina Oluwarotimi](https://www.linkedin.com/in/adesina-oluwarotimi/)).
